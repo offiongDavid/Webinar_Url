@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import API from "../services/api"
 import AdminLogin from "../components/AdminLogin"
-import logo from "../assets/speakers/logos.png"
+import logo from "../assets/Speakers/logos.png"
 
 const AdminDashboard = () => {
 
@@ -60,6 +60,7 @@ return(
 
 
 <h1 className="text-xl font-bold text-blue-900">
+    <img src={logo} alt="Logo" className="h-10 w-10" />
 Webinar Admin
 </h1>
 
