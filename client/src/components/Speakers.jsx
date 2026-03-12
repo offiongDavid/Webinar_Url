@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { FaArrowRight, FaTimes, FaInstagram, FaLinkedin, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
-import akerele from "../assets/speakers/akerle.jpeg";
-import okoro from "../assets/speakers/okoro.jpeg";
-import theresa from "../assets/speakers/theresa.jpeg";
+import akerele from "../assets/Speakers/akerle.jpeg";
+import okoro from "../assets/Speakers/okoro.jpeg";
+import theresa from "../assets/Speakers/theresa.jpeg";
 
 const Speakers = () => {
   const [activeSpeaker, setActiveSpeaker] = useState(null);
