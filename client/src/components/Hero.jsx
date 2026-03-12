@@ -1,4 +1,4 @@
-import logo from "../assets/speakers/logos.png"
+import logo from "../assets/Speakers/logos.png"
 
 const Hero = ({ openForm }) => {
   return (
